@@ -20,6 +20,7 @@
         }
         p {
             color: #666;
+            font-size: 1.2em; /* Увеличенный размер текста */
         }
         a {
             color: #007BFF;
@@ -27,6 +28,21 @@
         }
         a:hover {
             text-decoration: underline;
+        }
+        ul {
+            list-style-type: none; /* Убираем стандартные маркеры */
+            padding: 0; /* Убираем отступы */
+            margin: 20px 0; /* Отступы сверху и снизу */
+            background-color: #ffffff; /* Белый фон для списка */
+            border-radius: 5px; /* Закругленные углы */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для списка */
+        }
+        ul li {
+            padding: 10px; /* Отступы внутри элементов списка */
+            border-bottom: 1px solid #e0e0e0; /* Разделительная линия */
+        }
+        ul li:last-child {
+            border-bottom: none; /* Убираем разделительную линию у последнего элемента */
         }
         footer {
             margin-top: auto;
@@ -72,11 +88,11 @@
     <h1>Title</h1>
     <p>Content content content content content content content content content content content content content content content content content content content content content content content content content</p>
     <p>Вы можете <a href="https://github.com">посетить GitHub</a> для получения дополнительной информации.</p>
-<ul>
+    <ul>
         <li>Первый элемент списка</li>
         <li>Второй элемент списка</li>
         <li>Третий элемент списка</li>
-</ul>
+    </ul>
 
     <footer>
         <nav>
