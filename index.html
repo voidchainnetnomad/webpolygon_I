@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -50,7 +51,7 @@
         }
         footer p {
             margin: 5px 0;
-            color: #FFFFFF;
+            color: #FFFFFF; /* Убедитесь, что текст футера белый */
         }
         .social-icons {
             margin-top: 10px;
@@ -58,7 +59,7 @@
         .social-icons a {
             margin: 0 10px;
             color: #FFFFFF; /* Белый цвет для иконок */
-            font-size: 20px;
+            font-size: 24px; /* Увеличенный размер иконок */
             transition: transform 0.3s;
         }
         .social-icons a:hover {
@@ -66,7 +67,6 @@
         }
     </style>
 </head>
-    
 <body>
     <h1>Title</h1>
     <p>Content</p>
@@ -79,7 +79,12 @@
         </nav>
         <p>&copy; 2025 ABC Page. Все права защищены.</p>
         <div class="social-icons">
-            <a href="https://discord.com/" target="_blank">🌐</a> 
+            <a href="https://discord.com/" target="_blank" title="Discord">
+                <i class="fab fa-discord"></i> <!-- Иконка Discord -->
+            </a>
+            <a href="https://github.com" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i> <!-- Иконка GitHub -->
+            </a>
         </div>
     </footer>
 </body>
